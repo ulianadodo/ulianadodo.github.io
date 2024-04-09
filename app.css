@@ -1,0 +1,20 @@
+.navbar-brand {
+    text-decoration: none; /* Вимкнути декорації тексту */
+    float: none; /* Вимкнути обтікання */
+}
+.navbar-nav {
+    /* Ваші стилі для navbar-nav */
+    /* Наприклад, тут ви можете задати властивості для вирівнювання, колірів, шрифтів тощо */
+    list-style: none; /* Вимкнути маркери списку */
+    padding: 0; /* Вимкнути відступи */
+}
+
+.text-uppercase {
+    text-transform: uppercase; /* Трансформувати текст до верхнього регістру */
+}
+.text-center {
+    text-align: center; /* Вирівнювання по центру */
+  }
+  .text-muted {
+    color: #6c757d; /* Сірий колір */
+  }
