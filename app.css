@@ -3,8 +3,17 @@
 body {
     background-color: #f8f9fa; 
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     color: green;
+}
+    h4, h5, h6{
+        color:black;
+    }
+    body {
+    /* Встановлюємо фонову картинку та розмір фону */
+    background-image: url('шлях_до_картинки');
+    background-size: cover;
+    background-position: center;
 }
 .navbar-brand {
     text-decoration: none; 
