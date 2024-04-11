@@ -25,3 +25,81 @@ h1, h2, h3, h4, h5, h6 {
 .nav-panel {
     background-color: red;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+}
+
+.social-icon::before {
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.2em;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.social-icon.facebook::before {
+    content: '\f09a';
+}
+
+.social-icon.twitter::before {
+    content: '\f099';
+}
+
+.social-icon.youtube::before {
+    content: '\f167';
+}
+
+.social-icon.google::before {
+    content: '\f1a0';
+}
+
+.navbar-nav .nav-item:nth-child(1) .nav-link::before {
+    content: '\f291';
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.2em;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-nav .nav-item:nth-child(2) .nav-link::before {
+    content: '\f005';
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.2em;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar-nav .nav-item:nth-child(3) .nav-link::before {
+    content: '\f2c0';
+    display: inline-block;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.2em;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
