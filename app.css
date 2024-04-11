@@ -10,7 +10,7 @@ h1, h2, h3 {
         color:black;
     }
     body {
-    background-image: @import url('1639389743-863abde--zherelo-foto--fructo.jpg');
+    background-image: @import url('https://images/1639389743-863abde--zherelo-foto--fructo.jpg');
     background-size: cover;
     background-position: center;
 }
