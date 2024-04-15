@@ -117,3 +117,13 @@ h4, h5, h6 {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.divider {
+    height: 2px;
+    background: linear-gradient(to right, 
+        #add8e6 5%, /* Світло-синій */
+        #87ceeb 17%, /* Синьо-світло-сірий */
+        #4682b4 40%, /* Сірий */
+        #000080 85%, /* Темно-синій */
+        #191970 95% /* Дуже темний синій */
+    );
+}
