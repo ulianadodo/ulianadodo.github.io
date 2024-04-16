@@ -167,13 +167,6 @@ section {
     padding: 50px 0;
 }
 
-footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-}
-
 /* Styles for specific sections */
 #home {
     background-color: #f2f2f2;
