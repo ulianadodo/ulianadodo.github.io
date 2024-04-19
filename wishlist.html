@@ -4,16 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Список бажань</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
     <div class="container">
         <h1>Список бажань</h1>
+        <style>
+    h1 {
+        background: linear-gradient(to right, #ff0000, #ff6666);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+</style>
         <ul id="wishlist">
         </ul>
         <form id="addWishForm">
-            <input type="text" id="newWish" placeholder="Додати новий елемент до списку бажань" required>
-            <button type="submit">Додати</button>
+<table>
+    <thead>
+        <tr>
+            <th style="background-color: #808080;"></th>
+            <th style="background-color: #808080;">Product Name</th>
+            <th style="background-color: #808080;">Price</th>
+            <th style="background-color: #808080;">Quantity</th>
+            <th style="background-color: #808080;">Total</th>
+            <th style="background-color: #808080;">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="favicon.ico" alt="favicon" class="favicon"></td>
+            <td>Пітахайя</td>
+            <td>$10.00</td>
+            <td>2</td>
+            <td>$20.00</td>
+            <td><img src="trash.ico" alt="delete" class="delete-icon"></td>
+        </tr>
+        <tr>
+            <td><img src="favicon.ico" alt="favicon" class="favicon"></td>
+            <td>Айва</td>
+            <td>$15.00</td>
+            <td>1</td>
+            <td>$15.00</td>
+            <td><img src="trash.ico" alt="delete" class="delete-icon"></td>
+        </tr>
+              <tr>
+            <td><img src="favicon.ico" alt="favicon" class="favicon"></td>
+            <td>Кумкват</td>
+            <td>$15.00</td>
+            <td>1</td>
+            <td>$15.00</td>
+            <td><img src="trash.ico" alt="delete" class="delete-icon"></td>
+        </tr>
+        <!-- Add more rows as needed -->
+    </tbody>
+</table>
+
+</body>
+</html>
         </form>
     </div>
 </body>
