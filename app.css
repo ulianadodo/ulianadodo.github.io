@@ -172,7 +172,36 @@ section {
     background-color: #f2f2f2;
     text-align: center;
 }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
 
+    th, td {
+        padding: 8px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    th:hover {
+        background-color: #ccc;
+    }
+
+    .favicon {
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+    }
+
+    .delete-icon {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
 #about, #contact {
     text-align: center;
 }
