@@ -4,42 +4,102 @@
     <meta charset="UTF-8">
     <meta name="description" content="Інформація про нас">
     <title>Про нас</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url(fructo.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px 0;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+        .navbar-nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar-nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .navbar-nav li a {
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        footer ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-     <nav class="navbar">
+    <nav class="navbar">
         <div class="container">
             <a href="index.html" class="navbar-brand">Fructis</a>
-         <div class="navbar-wrapper">
-            <ul class="navbar-nav">
-        <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="about.html">Про нас</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-              <li><a href="cart.html">Кошик товарів</a></li>
-             <li><a href="wishlist.html">Список бажань</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Контакти</a></li>
-        </ul>
-            </ul></nav>
-    <h1>Інформація про нас</h1>
-              <section id="hero1">
-          <div class="hero1">
-              <div class="hero1" style="background: url(fructo.jpg)">
-              <div class="container">
-        <ol>
-            <li>Fructis</li>
-            <li>Підберемо накращі екзотичні фрукти для вас</li>
-                <ul>
-                    <li>Співвідношення ціна-якість</li>
-                    <li>Сервіс на найвищоу рівні</li>
+            <div class="navbar-wrapper">
+                <ul class="navbar-nav">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="cart.html">Кошик товарів</a></li>
+                    <li><a href="wishlist.html">Список бажань</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
                 </ul>
-            </li>
-            <li>Доставка по всьому Києву</li>
-        </ol>
-    </div>
+            </div>
+        </div>
+    </nav>
+    <h1>Інформація про нас</h1>
+    <section id="hero1">
+        <div class="container">
+            <ol>
+                <li>Fructis</li>
+                <li>
+                    Підберемо найкращі екзотичні фрукти для вас
+                    <ul>
+                        <li>Співвідношення ціна-якість</li>
+                        <li>Сервіс на найвищому рівні</li>
+                    </ul>
+                </li>
+                <li>Доставка по всьому Києву</li>
+            </ol>
+        </div>
+    </section>
     <footer>
         <ul>
-            <li><a href="https://google.com" target="_blank">Goggle</a></li>
+            <li><a href="https://google.com" target="_blank">Google</a></li>
         </ul>
     </footer>
 </body>
