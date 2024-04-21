@@ -4,28 +4,132 @@
     <meta charset="UTF-8">
     <meta name="description" content="Інформація про нас">
     <title>Кошик товарів</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: #f4f4f4;
+            padding: 10px 0;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+        .navbar-nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar-nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .navbar-nav li a {
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        footer ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-   <nav class="navbar">
+    <nav class="navbar">
         <div class="container">
             <a href="index.html" class="navbar-brand">Fructis</a>
-         <div class="navbar-wrapper">
-            <ul class="navbar-nav">
-        <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="about.html">Про нас</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-              <li><a href="cart.html">Кошик товарів</a></li>
-             <li><a href="wishlist.html">Список бажань</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Контакти</a></li>
-        </ul>
-            </ul></nav>
+            <div class="navbar-wrapper">
+                <ul class="navbar-nav">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="cart.html">Кошик товарів</a></li>
+                    <li><a href="wishlist.html">Список бажань</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <h1>Кошик товарів</h1>
-    
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Назва товару</th>
+                    <th>Ціна</th>
+                    <th>Кількість</th>
+                    <th>Сума</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Яблука</td>
+                    <td>25 грн</td>
+                    <td>2</td>
+                    <td>50 грн</td>
+                </tr>
+                <tr>
+                    <td>Апельсини</td>
+                    <td>30 грн</td>
+                    <td>3</td>
+                    <td>90 грн</td>
+                </tr>
+                <!-- Add more rows as needed -->
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="3" style="text-align: right;">Загальна сума:</td>
+                    <td>140 грн</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
     <footer>
         <ul>
-            <li><a href="https://google.com" target="_blank">Goggle</a></li>
+            <li><a href="https://google.com" target="_blank">Google</a></li>
         </ul>
     </footer>
 </body>
