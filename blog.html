@@ -4,47 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Post</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url(fructo.jpg) no-repeat center center fixed;
+            background-size: cover;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.5);
+            padding: 10px 0;
+        }
+        .navbar-brand {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+        }
+        .navbar-nav {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar-nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .navbar-nav li a {
+            font-size: 18px;
+            color: #333;
+            text-decoration: none;
+        }
+        h2 {
+            color: #333;
+        }
+        .post-container {
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .post-container ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .post-container ul li {
+            margin-bottom: 10px;
+        }
+        .post-container ul li span {
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #333;
+        }
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        footer ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        footer ul li a {
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-     <nav class="navbar">
+    <nav class="navbar">
         <div class="container">
             <a href="index.html" class="navbar-brand">Fructis</a>
-         <div class="navbar-wrapper">
-            <ul class="navbar-nav">
-        <ul>
-            <li><a href="index.html">Головна</a></li>
-            <li><a href="about.html">Про нас</a></li>
-            <li><a href="catalog.html">Каталог</a></li>
-              <li><a href="cart.html">Кошик товарів</a></li>
-             <li><a href="wishlist.html">Список бажань</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Контакти</a></li>
-        </ul>
-            </ul></nav>
-              <section id="hero1">
-          <div class="hero1">
-              <div class="hero1" style="background: url(fructo.jpg)">
-    <div class="post-container">
-        <h2>Відгуки вдячних клієнтів</h2>
-        <p>Дуже раджу цю компанію. Приєний сервіс, швидка обрабка замовлення та доставка. Фрукти завжди свіжі та мають подарунковий вигляд. З таким оформленням не стидно йти на день народження</p>
-        <ul>
-            <li>Author:
-                <span>Анна К.</span>
-            </li>
-            <li>Опубліковано:
-                <span>8 Квітня 2024</span>
-            </li>
-            <li>Tags:
-                <span>fructs, company</span>
-            </li>
-        </ul>
-    </div>
-</body>
-</html>
-   
+            <div class="navbar-wrapper">
+                <ul class="navbar-nav">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="cart.html">Кошик товарів</a></li>
+                    <li><a href="wishlist.html">Список бажань</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="hero1">
+        <div class="container">
+            <div class="hero1">
+                <div class="post-container">
+                    <h2>Відгуки вдячних клієнтів</h2>
+                    <p>Дуже раджу цю компанію. Приєний сервіс, швидка обрабка замовлення та доставка. Фрукти завжди свіжі та мають подарунковий вигляд. З таким оформленням не стидно йти на день народження</p>
+                    <ul>
+                        <li>Author: <span>Анна К.</span></li>
+                        <li>Опубліковано: <span>8 Квітня 2024</span></li>
+                        <li>Tags: <span>fructs, company</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <ul>
-            <li><a href="https://google.com" target="_blank">Goggle</a></li>
+            <li><a href="https://google.com" target="_blank">Google</a></li>
         </ul>
     </footer>
 </body>
