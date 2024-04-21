@@ -10,6 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="app.css">
+    <styles>
+         .col {
+            width: calc(100% / 12 * 3);
+            float: left;
+            padding: 10px;
+        }
+        @media only screen and (max-width: 768px) {
+            .col {
+                width: calc(100% / 12 * 6);
+            }
+        }
+        @media only screen and (max-width: 576px) {
+            .col {
+                width: calc(100% / 12 * 12);
+            }
+        }
+    </styles>
 </head>
 <body>
 <nav class="navbar">
