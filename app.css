@@ -217,18 +217,3 @@ section {
     tr:hover {
         background-color: #f2f2f2;
     }
- .col {
-            width: calc(100% / 12 * 3);
-            float: left;
-            padding: 10px;
-        }
-        @media only screen and (max-width: 768px) {
-            .col {
-                width: calc(100% / 12 * 6);
-            }
-        }
-        @media only screen and (max-width: 576px) {
-            .col {
-                width: calc(100% / 12 * 12);
-            }
-        }
