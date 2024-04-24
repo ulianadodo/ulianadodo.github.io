@@ -11,20 +11,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="app.css">
     <style>
-         .col {
-            width: calc(100% / 12 * 3);
-            float: left;
-            padding: 10px;
-        }
-        @media only screen and (max-width: 768px) {
-            .col {
-                width: calc(100% / 12 * 6);
-            }
-        }
-        @media only screen and (max-width: 576px) {
-            .col {
-                width: calc(100% / 12 * 12);
-            }
+       .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex: 0 0 auto;
+    width: calc(100% / 12 * 3);
+    padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        width: calc(100% / 12 * 6);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .col {
+        width: calc(100% / 12 * 12);
         }
         body {
             margin: 0;
@@ -67,41 +75,40 @@
             <div class="row">
                 <!-- Product 1 -->
                 <div class="col">
-                    <div class="product">
-                        <a href="detail.html">
-                            <img class="img-fluid" src="1.jpeg" alt="Пітахайя">
-                        </a>
-                        <h6 class="text-center">
-                            <a class="reset-anchor" href="detail.html">Пітахайя</a>
-                        </h6>
-                        <p class="text-center text-muted font-weight-bold">120 грн</p>
-                    </div>
-                </div>
-                <!-- Product 2 -->
-                <div class="col">
-                    <div class="product">
-                        <a href="detail.html">
-                            <img class="img-fluid" src="2.jpeg" alt="Айва">
-                        </a>
-                        <h6 class="text-center">
-                            <a class="reset-anchor" href="detail.html">Айва</a>
-                        </h6>
-                        <p class="text-center text-muted font-weight-bold">100 грн</p>
-                    </div>
-                </div>
-                <!-- Product 3 -->
-                <div class="col">
-                    <div class="product">
-                        <a href="detail.html">
-                            <img class="img-fluid" src="3.jpeg" alt="Кумкват">
-                        </a>
-                        <h6 class="text-center">
-                            <a class="reset-anchor" href="detail.html">Кумкват</a>
-                        </h6>
-                        <p class="text-center text-muted font-weight-bold">100 грн</p>
-                    </div>
-                </div>
-                <!-- Add more product cards as needed -->
+    <div class="product">
+        <a href="detail.html">
+            <img class="img-fluid" src="1.jpeg" alt="Пітахайя">
+        </a>
+        <h6 class="text-center">
+            <a class="reset-anchor" href="detail.html">Пітахайя</a>
+        </h6>
+        <p class="text-center text-muted font-weight-bold">120 грн</p>
+    </div>
+</div>
+<!-- Product 2 -->
+<div class="col">
+    <div class="product">
+        <a href="detail.html">
+            <img class="img-fluid" src="2.jpeg" alt="Айва">
+        </a>
+        <h6 class="text-center">
+            <a class="reset-anchor" href="detail.html">Айва</a>
+        </h6>
+        <p class="text-center text-muted font-weight-bold">100 грн</p>
+    </div>
+</div>
+<!-- Product 3 -->
+<div class="col">
+    <div class="product">
+        <a href="detail.html">
+            <img class="img-fluid" src="3.jpeg" alt="Кумкват">
+        </a>
+        <h6 class="text-center">
+            <a class="reset-anchor" href="detail.html">Кумкват</a>
+        </h6>
+        <p class="text-center text-muted font-weight-bold">100 грн</p>
+    </div>
+</div>
             </div>
         </div>
     </div>
