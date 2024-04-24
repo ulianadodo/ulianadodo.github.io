@@ -228,3 +228,27 @@ section {
     padding: 20px;
     text-align: center;
 }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    flex: 0 0 auto;
+    width: calc(100% / 12 * 3);
+    padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        width: calc(100% / 12 * 6);
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .col {
+        width: calc(100% / 12 * 12);
+    }
+}
