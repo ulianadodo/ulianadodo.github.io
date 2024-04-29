@@ -79,27 +79,34 @@
                     <td>$10.00</td>
                     <td>2</td>
                     <td>$20.00</td>
-                    <td><img src="trash.ico" alt="delete" class="delete-icon"></td>
+                    <td><img src="trash.ico" alt="delete" class="delete-icon" onclick="deleteRow(this)"></td>
                 </tr>
                 <tr>
                     <td><img src="favicon.ico" alt="favicon" class="favicon"> Айва</td>
                     <td>$15.00</td>
                     <td>1</td>
                     <td>$15.00</td>
-                    <td><img src="trash.ico" alt="delete" class="delete-icon"></td>
+                    <td><img src="trash.ico" alt="delete" class="delete-icon" onclick="deleteRow(this)"></td>
                 </tr>
                 <tr>
                     <td><img src="favicon.ico" alt="favicon" class="favicon"> Кумкват</td>
                     <td>$15.00</td>
                     <td>1</td>
                     <td>$15.00</td>
-                    <td><img src="trash.ico" alt="delete" class="delete-icon"></td>
+                    <td><img src="trash.ico" alt="delete" class="delete-icon" onclick="deleteRow(this)"></td>
                 </tr>
                 <!-- Add more rows as needed -->
             </tbody>
         </table>
     </form>
 </div>
+
+<script>
+    function deleteRow(row) {
+        var rowIndex = row.parentNode.parentNode.rowIndex;
+        document.querySelector("table").deleteRow(rowIndex);
+    }
+</script>
 
 </body>
 </html>
