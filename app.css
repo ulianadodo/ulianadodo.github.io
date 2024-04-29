@@ -130,3 +130,57 @@ footer ul li a {
         flex-basis: calc(33.333% - 30px); /* Calculate width of items for 3 columns */
     }
 }
+.post-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.post-container h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-container p {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Враховувати padding у визначенні ширини */
+}
+
+textarea {
+    resize: none; /* Заборона на зміну розміру textarea */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#thank-you {
+    margin-top: 10px;
+    font-size: 18px;
+    color: green;
+    display: none; /* Початково прихований */
+}
