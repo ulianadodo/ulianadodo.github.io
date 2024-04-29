@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакти</title>
     <link rel="stylesheet" href="app.css">
-      <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
@@ -32,37 +32,45 @@
         </div>
     </div>
 </nav>
-    <h1>Контакти</h1>
-    <div class="container">
-        <div class="post-container">
-            <h3>Напишіть нам</h3>
-            <p>Залиште своє повідомлення тут:</p>
-            <form action="mailto:uliana1227@gmail.com" method="post" enctype="text/plain">
-                <label for="name">Ім'я:</label><br>
-                <input type="text" id="name" name="name"><br>
-                <label for="phone">Номер телефону:</label><br>
-                <input type="tel" id="phone" name="phone"><br>
-                <textarea name="message" rows="4" cols="50"></textarea><br>
-                <input type="submit" value="Надіслати">
-            </form>
-            <div id="thank-you" style="display: none; margin-top: 10px;">
-                Дякуємо! Ми зв'яжемося з вами найближчим часом.
-            </div>
+<h1>Контакти</h1>
+<div class="container">
+    <div class="post-container">
+        <h3>Напишіть нам</h3>
+        <p>Залиште своє повідомлення тут:</p>
+        <form action="mailto:uliana1227@gmail.com" method="post" enctype="text/plain">
+            <label for="surname">Прізвище:</label><br>
+            <input type="text" id="surname" name="surname"><br>
+            <label for="email">Емейл:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="city">Місто:</label><br>
+            <select id="city" name="city">
+                <option value="Київ">Київ</option>
+                <option value="Харків">Харків</option>
+                <option value="Одеса">Одеса</option>
+                <option value="Львів">Львів</option>
+                <!-- Додайте інші міста України за необхідністю -->
+            </select><br>
+            <textarea name="message" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Надіслати">
+        </form>
+        <div id="thank-you" style="display: none; margin-top: 10px;">
+            Дякуємо! Ми зв'яжемося з вами найближчим часом.
         </div>
     </div>
-    <footer>
-        <ul>
-            <li><a href="https://google.com" target="_blank">Google</a></li>
-        </ul>
-    </footer>
+</div>
+<footer>
+    <ul>
+        <li><a href="https://google.com" target="_blank">Google</a></li>
+    </ul>
+</footer>
 
-    <script>
-        // Показати повідомлення "Дякую!" після відправлення форми
-        document.querySelector("form").addEventListener("submit", function(event) {
-            event.preventDefault();
-            document.getElementById("thank-you").style.display = "block";
-            this.reset();
-        });
-    </script>
+<script>
+    // Показати повідомлення "Дякую!" після відправлення форми
+    document.querySelector("form").addEventListener("submit", function(event) {
+        event.preventDefault();
+        document.getElementById("thank-you").style.display = "block";
+        this.reset();
+    });
+</script>
 </body>
 </html>
