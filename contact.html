@@ -42,24 +42,12 @@
             color: #333;
             text-decoration: none;
         }
-        h2 {
+        h1 {
             color: #333;
+            text-align: center;
         }
-        .post-container {
-            background-color: rgba(255, 255, 255, 0.7);
-            padding: 20px;
-            margin-top: 20px;
-            border-radius: 10px;
-        }
-        .post-container ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        .post-container ul li {
-            margin-bottom: 10px;
-        }
-        .post-container ul li span {
-            font-weight: bold;
+        h3 {
+            color: #333;
         }
         footer {
             text-align: center;
@@ -98,15 +86,36 @@
         </div>
     </nav>
     <h1>Контакти</h1>
-    <div>
-            <p><h3>Напишіть нам</h3></p>
-            <a href="mailto:uliana1227@gmail.com">email</a></li>
-               <!-- напишіть нам <mailto:uliana1227@gmail.com> -->
+    <div class="container">
+        <div class="post-container">
+            <h3>Напишіть нам</h3>
+            <p>Залиште своє повідомлення тут:</p>
+            <form action="mailto:uliana1227@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Ім'я:</label><br>
+                <input type="text" id="name" name="name"><br>
+                <label for="phone">Номер телефону:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <textarea name="message" rows="4" cols="50"></textarea><br>
+                <input type="submit" value="Надіслати">
+            </form>
+            <div id="thank-you" style="display: none; margin-top: 10px;">
+                Дякуємо! Ми зв'яжемося з вами найближчим часом.
+            </div>
+        </div>
     </div>
     <footer>
         <ul>
-            <li><a href="https://google.com" target="_blank">Goggle</a></li>
+            <li><a href="https://google.com" target="_blank">Google</a></li>
         </ul>
     </footer>
+
+    <script>
+        // Показати повідомлення "Дякую!" після відправлення форми
+        document.querySelector("form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            document.getElementById("thank-you").style.display = "block";
+            this.reset();
+        });
+    </script>
 </body>
 </html>
