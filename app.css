@@ -17,11 +17,11 @@ body {
 }
 
 h1, h2, h3 {
-    color: yellow;
+    color: green;
 }
 
 h4, h5, h6 {
-    color: white;
+    color: black;
 }
 
 .navbar-brand {
