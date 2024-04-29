@@ -10,6 +10,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="app.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tfoot {
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
 <nav class="navbar">
@@ -30,44 +54,44 @@
         </div>
     </div>
 </nav>
-    <h1>Кошик товарів</h1>
-    <div class="container">
-        <table>
-            <thead>
-                <tr>
-                    <th>Назва товару</th>
-                    <th>Ціна</th>
-                    <th>Кількість</th>
-                    <th>Сума</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Яблука</td>
-                    <td>25 грн</td>
-                    <td>2</td>
-                    <td>50 грн</td>
-                </tr>
-                <tr>
-                    <td>Апельсини</td>
-                    <td>30 грн</td>
-                    <td>3</td>
-                    <td>90 грн</td>
-                </tr>
-                <!-- Add more rows as needed -->
-            </tbody>
-            <tfoot>
-                <tr>
-                    <td colspan="3" style="text-align: right;">Загальна сума:</td>
-                    <td>140 грн</td>
-                </tr>
-            </tfoot>
-        </table>
-    </div>
-    <footer>
-        <ul>
-            <li><a href="https://google.com" target="_blank">Google</a></li>
-        </ul>
-    </footer>
+<h1>Кошик товарів</h1>
+<div class="container">
+    <table>
+        <thead>
+            <tr>
+                <th>Назва товару</th>
+                <th>Ціна</th>
+                <th>Кількість</th>
+                <th>Сума</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Яблука</td>
+                <td>25 грн</td>
+                <td>2</td>
+                <td>50 грн</td>
+            </tr>
+            <tr>
+                <td>Апельсини</td>
+                <td>30 грн</td>
+                <td>3</td>
+                <td>90 грн</td>
+            </tr>
+            <!-- Add more rows as needed -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" style="text-align: right;">Загальна сума:</td>
+                <td>140 грн</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>
+<footer>
+    <ul>
+        <li><a href="https://google.com" target="_blank">Google</a></li>
+    </ul>
+</footer>
 </body>
 </html>
