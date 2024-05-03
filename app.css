@@ -134,7 +134,12 @@
                 flex-basis: calc(33.333% - 30px); /* Calculate width of items for 3 columns */
             }
         }
-
+@media only screen and (max-width: 600px) {
+  .col {
+    width: 100%; /* Змінюємо ширину колонок на 100% у мобільній версії */
+    margin-left: 0; /* Встановлюємо відступ зліва на 0 */
+  }
+}
         .post-container {
             max-width: 500px;
             margin: 0 auto;
