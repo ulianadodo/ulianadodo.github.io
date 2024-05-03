@@ -327,4 +327,16 @@ footer {
   padding: 20px;
   text-align: center;
 }
+.wishlist-btn {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px; /* Розмір значка */
+    color: #ccc; /* Колір за замовчуванням */
+    transition: color 0.3s; /* Плавна зміна кольору при наведенні */
+}
+
+.wishlist-btn:hover {
+    color: #ff0000; /* Колір при наведенні */
+}
 
