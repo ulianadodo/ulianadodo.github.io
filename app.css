@@ -207,6 +207,50 @@ th {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+/* Add this CSS for button block styling */
+.grid-item {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Update this CSS for responsive navigation */
+.navbar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+/* Add this CSS for responsive footer */
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-inline {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list-inline-item {
+    margin-right: 10px;
+}
 
 tr:hover {
     background-color: #d3d3d3; /* Колір підсвічування при наведенні */
