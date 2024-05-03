@@ -278,3 +278,12 @@ tr:hover {
 .sold {
     background-color: gray;
 }
+.product {
+    position: relative;
+}
+
+.product .badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
