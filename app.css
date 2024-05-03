@@ -287,3 +287,29 @@ tr:hover {
     top: 10px;
     right: 10px;
 }
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000; /* default color */
+  padding: 10px;
+  transition: color 0.3s; /* smooth color transition */
+}
+
+nav ul li a:hover {
+  color: #ff0000; /* hover color */
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
