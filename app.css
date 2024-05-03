@@ -207,7 +207,6 @@ th {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
-/* Add this CSS for button block styling */
 .grid-item {
     background-color: #f2f2f2;
     border: 1px solid #ddd;
@@ -216,7 +215,6 @@ tr:nth-child(even) {
     margin-bottom: 10px;
 }
 
-/* Update this CSS for responsive navigation */
 .navbar-wrapper {
     display: flex;
     justify-content: space-between;
@@ -234,7 +232,6 @@ tr:nth-child(even) {
     margin: 0 10px;
 }
 
-/* Add this CSS for responsive footer */
 .footer-wrapper {
     display: flex;
     justify-content: space-between;
@@ -299,7 +296,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #000; /* default color */
+  color: #21ad9b; /* default color */
   padding: 10px;
   transition: color 0.3s; /* smooth color transition */
 }
