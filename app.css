@@ -305,11 +305,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #ff0000; /* hover color */
+  color: #73e68f; /* hover color */
 }
 
 footer {
-  background-color: #f0f0f0;
+  background-color: #dae0d3;
   padding: 20px;
   text-align: center;
+}
+nav {
+  cursor: pointer; 
 }
