@@ -303,9 +303,21 @@ nav ul li a {
   padding: 10px;
   transition: color 0.3s; /* smooth color transition */
 }
+a:link { 
+ color: orange;
+}
+a:visited { 
+ color: blue;
+}
 
 nav ul li a:hover {
   color: #73e68f; /* hover color */
+}
+nav {
+  cursor: pointer; 
+}
+a:active {
+ color: rebeccapurple;
 }
 
 footer {
@@ -313,6 +325,4 @@ footer {
   padding: 20px;
   text-align: center;
 }
-nav {
-  cursor: pointer; 
-}
+
