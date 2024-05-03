@@ -140,53 +140,48 @@
     margin-left: 0; /* Встановлюємо відступ зліва на 0 */
   }
 }
-        .post-container {
-            max-width: 500px;
-            margin: 0 auto;
-            padding: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #f9f9f9;
-        }
+       /* Стилізація таблиці */
+.post-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Напівпрозорий фон */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
 
-        .post-container h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
+/* Вирівнювання блоків */
+.post-container h3,
+.post-container p,
+.post-container form {
+    margin-bottom: 20px;
+}
 
-        .post-container p {
-            margin-bottom: 20px;
-        }
+/* Додаткові стилі для динамічності */
+.post-container form label {
+    display: block;
+    margin-bottom: 5px;
+}
 
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
+.post-container form input[type="text"],
+.post-container form input[type="email"],
+.post-container form select,
+.post-container form textarea,
+.post-container form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
-        input[type="text"],
-        input[type="tel"],
-        textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            box-sizing: border-box; /* Враховувати padding у визначенні ширини */
-        }
+.post-container form input[type="submit"] {
+    background-color: #ff0000;
+    color: #fff;
+    cursor: pointer;
+}
 
-        textarea {
-            resize: none; /* Заборона на зміну розміру textarea */
-        }
-
-        input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            background-color: #007bff;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+.post-container form input[type="submit"]:hover {
+    background-color: #cc0000;
+}
 
         #thank-you {
             margin-top: 10px;
