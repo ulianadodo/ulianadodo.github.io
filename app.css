@@ -379,3 +379,53 @@ footer {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+/* Додайте цей CSS під ваш існуючий CSS */
+
+/* Показує бургерне меню на планшетах та мобільних пристроях */
+@media screen and (max-width: 992px) {
+    .navbar-wrapper ul.navbar-nav {
+        display: none;
+    }
+    .navbar-toggler {
+        display: block;
+    }
+    .navbar-toggler .fa-bars {
+        display: block;
+    }
+}
+
+/* Сховати бургерне меню на більших екранах */
+@media screen and (min-width: 992px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+/* Змінити вигляд бургерного меню */
+.navbar-toggler {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler .fa-bars {
+    display: none;
+}
+
+.navbar-toggler.active .fa-times {
+    display: block;
+}
+
+.navbar-toggler.active .fa-bars {
+    display: none;
+}
+
+.navbar-toggler .fa-times {
+    display: none;
+}
