@@ -48,5 +48,16 @@
             <button type="submit">Увійти</button>
         </form>
     </div>
-</body>
-</html>
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarMenu = document.querySelector('.navbar-wrapper ul.navbar-nav');
+
+    navbarToggler.addEventListener('click', function() {
+        navbarToggler.classList.toggle('active');
+        navbarMenu.classList.toggle('active');
+    });
+});
+</script>
+        </body>
+        </html>
