@@ -379,8 +379,6 @@ footer {
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-/* Додайте цей CSS під ваш існуючий CSS */
-
 /* Показує бургерне меню на планшетах та мобільних пристроях */
 @media screen and (max-width: 992px) {
     .navbar-wrapper ul.navbar-nav {
@@ -401,7 +399,6 @@ footer {
     }
 }
 
-/* Змінити вигляд бургерного меню */
 .navbar-toggler {
     background: none;
     border: none;
@@ -414,18 +411,22 @@ footer {
     outline: none;
 }
 
+/* Показуємо "fa-bars" за замовчуванням */
 .navbar-toggler .fa-bars {
+    display: block;
+}
+
+/* Ховаємо "fa-times" за замовчуванням */
+.navbar-toggler .fa-times {
     display: none;
 }
 
+/* Встановлюємо відображення "fa-times" при активному стані кнопки */
 .navbar-toggler.active .fa-times {
     display: block;
 }
 
+/* Ховаємо "fa-bars" при активному стані кнопки */
 .navbar-toggler.active .fa-bars {
-    display: none;
-}
-
-.navbar-toggler .fa-times {
     display: none;
 }
