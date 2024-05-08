@@ -430,3 +430,10 @@ footer {
 .navbar-toggler.active .fa-bars {
     display: none;
 }
+.navbar-toggler.active + .navbar-wrapper ul.navbar-nav {
+    display: flex;
+}
+
+/* Ховаємо навігаційне меню за замовчуванням */
+.navbar-wrapper ul.navbar-nav {
+    display: none;
