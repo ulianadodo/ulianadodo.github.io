@@ -380,7 +380,7 @@ footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 /* Показує бургерне меню на планшетах та мобільних пристроях */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 425px) {
     .navbar-wrapper ul.navbar-nav {
         display: none;
     }
@@ -393,7 +393,7 @@ footer {
 }
 
 /* Сховати бургерне меню на більших екранах */
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .navbar-toggler {
         display: none;
     }
