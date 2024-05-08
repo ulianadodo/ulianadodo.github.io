@@ -54,5 +54,16 @@
             <li><a href="https://google.com" target="_blank">Google</a></li>
         </ul>
     </footer>
-</body>
-</html>
+  <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarMenu = document.querySelector('.navbar-wrapper ul.navbar-nav');
+
+    navbarToggler.addEventListener('click', function() {
+        navbarToggler.classList.toggle('active');
+        navbarMenu.classList.toggle('active');
+    });
+});
+</script>
+        </body>
+        </html>
