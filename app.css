@@ -365,3 +365,17 @@ footer {
     width: 110%; /* Збільшення ширини лінії підкреслення при наведенні */
 }
 
+/* CSS для контейнера блогу */
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Адаптивна сітка з мінімальною шириною 300px */
+    gap: 20px; /* Відступ між блоками */
+}
+
+/* CSS для блоку запису блогу */
+.blog-post {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
