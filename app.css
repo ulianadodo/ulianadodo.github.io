@@ -382,8 +382,9 @@ footer {
 /* Показує бургерне меню на планшетах та мобільних пристроях */
 @media screen and (max-width: 425px) {
     .navbar-wrapper ul.navbar-nav {
-        display: none;
+        display: flex;
     }
+}
     .navbar-toggler {
         display: block;
     }
