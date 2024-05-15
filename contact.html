@@ -2,9 +2,16 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Контакти">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакти</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
 <nav class="navbar">
@@ -50,7 +57,6 @@
                         <option value="Харків">Харків</option>
                         <option value="Одеса">Одеса</option>
                         <option value="Львів">Львів</option>
-                        <!-- Додайте інші міста України за необхідністю -->
                     </select><br>
                     <textarea name="message" rows="4" cols="50" class="form-control mb-3"></textarea><br>
                     <input type="submit" value="Надіслати" class="btn btn-primary">
@@ -62,9 +68,31 @@
         </div>
     </div>
 </div>
-
 <section id="contact">
     <div class="container">
         <h1 class="mt-5 mb-4 text-center">Контакти</h1>
         <!-- Вставте вашу мапу тут -->
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1269.781427957786!2d30.459096138916735!3d50.46786450015517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cdcfe87ba57d%3A0x669ebf198692f84f!2s
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <ul class="list-inline">
+                   <li class="list-inline-item"><a class="social-icon" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+<li class="list-inline-item"><a class="social-icon" href="https://uk-ua.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+<li class="list-inline-item"><a class="social-icon" href="https://fruit-boutique.com.ua/korobka-s-fruktami-nice-box-1sht/?gad_source=1&gclid=Cj0KCQjwir2xBhC_ARIsAMTXk87n5wcb6wi_V0SrRWJbrYHKtMdjdHL6qgVPt2QiScidw213twI4gfQaAs4NEALw_wcB"><i class="fab fa-google"></i></a></li>
+                </ul></div> 
+            </footer>
+               <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const navbarToggler = document.querySelector('.navbar-toggler');
+    const navbarMenu = document.querySelector('.navbar-wrapper ul.navbar-nav');
+
+    navbarToggler.addEventListener('click', function() {
+        navbarToggler.classList.toggle('active');
+        navbarMenu.classList.toggle('active');
+    });
+});
+</script>
+        </body>
+        </html>
