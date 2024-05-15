@@ -12,8 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
 </head>
-<body style="background-color: rgba(255, 255, 255, 0.7);"> <!-- Зміна фонового кольору на прозорий -->
-
 <nav class="navbar">
     <div class="container">
         <a href="index.html" class="navbar-brand">Fructis</a>
@@ -38,9 +36,11 @@
     </div>
 </nav>
 
-<div class="container">
-    <form action="wishlist.html" method="post"> <!-- Зміна атрибута action на wishlist.html -->
+<div class="container style="background-color: rgba(255, 255, 255, 0.7);">
+    <form action="wishlist.html" method="post">
         <h2>Увійти до свого облікового запису</h2>
+        <div class="row justify-content-center">
+        <div class="col-md-6">
         <div class="form-group">
             <label for="username">Ім'я користувача:</label>
             <input type="text" class="form-control" id="username" name="username" required>
@@ -49,7 +49,7 @@
             <label for="password">Пароль:</label>
             <input type="password" class="form-control" id="password" name="password" required>
         </div>
-        <button type="submit" class="btn btn-primary">Увійти</button> <!-- Зміна стилю кнопки -->
+        <button type="submit" class="btn-secondary">Увійти</button> <!-- Зміна стилю кнопки -->
     </form>
 </div>
 
