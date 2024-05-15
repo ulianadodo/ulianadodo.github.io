@@ -436,3 +436,13 @@ footer {
     flex-direction: row;
     align-items: center;
 }
+.btn-transparent {
+    color: black;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-transparent:hover {
+    color: #4CAF50; 
+}
+
