@@ -350,7 +350,7 @@ footer {
 
 /* Створення анімаційного ефекту підкреслення */
 .footer-nav a::after {
-    content: ''; /* Додати псевдоелемент після тексту посилання */
+    content: '▼'; /* Додати псевдоелемент після тексту посилання */
     position: absolute; /* Абсолютне позиціонування відносно батьківського елементу */
     left: 0; /* Початок лінії підкреслення на початку тексту */
     bottom: -2px; /* Відступ нижнього підкреслення */
@@ -416,10 +416,6 @@ footer {
     display: block;
 }
 
-/* Ховаємо "fa-times" за замовчуванням */
-.navbar-toggler .fa-times {
-    display: none;
-}
 
 /* Встановлюємо відображення "fa-times" при активному стані кнопки */
 .navbar-toggler.active .fa-times {
@@ -439,9 +435,4 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-/* Ховаємо навігаційне меню за замовчуванням */
-.navbar-wrapper ul.navbar-nav {
-    display: none;
 }
