@@ -5,12 +5,41 @@
     <meta name="description" content="Деталі продукту">
     <title>Деталі продукту</title>
     <link rel="stylesheet" href="app.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
 <header>
-    <!-- Ваш заголовок та навігаційне меню можуть бути додані тут -->
+<nav class="navbar">
+    <div class="container">
+        <a href="index.html" class="navbar-brand">Fructis</a>
+         <button class="navbar-toggler">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
+        </button>
+        <div class="navbar-wrapper">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-uppercase" href="index.html">Головна</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="about.html">Про нас</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="catalog.html">Каталог</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="contact.html">Контакти</a></li>
+            </ul>
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link text-uppercase" href="cart.html"><i class="fas fa-cart-shopping"></i></a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="wishlist.html"><i class="fas fa-heart"></i></a></li>
+                <li class="nav-item"><a class="nav-link text-uppercase" href="login.html"><i class="fas fa-sign-in-alt"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
 </header>
-
 <section id="product-details">
     <div class="container">
         <div class="row">
@@ -21,7 +50,29 @@
                 <h2>Пітахайя</h2>
                 <p>Ціна: 120 грн</p>
                 <p>Опис продукту:</p>
-                <p>Фрукт дракона, драгон фрут, пітахайя або пітайя — екзотичний плід, що зовсім нещодавно став доступним у наших краях. Та це не завадило йому швидко стати улюбленцем багатьох поціновувачів смачної їжі. Чому? Просто в ньому поєднується все те, що ми так любимо, — красивий зовнішній вигляд, чудовий смак і багато корисних властивостей. </p>
+                <p>Фрукт дракона, драгон фрут, пітахайя або пітайя — екзотичний плід, що зовсім нещодавно став доступним у наших краях. Та це не завадило йому швидко стати улюбленцем багатьох поціновувачів смачної їжі. Чому? Просто в ньому поєднується все те, що ми так любимо, — красивий зовнішній вигляд, чудовий смак і багато корисних властивостей.</p>
+                <button class="btn btn-primary">Додати у кошик</button>
+                <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="2.jpeg" alt="Айва">
+            </div>
+            <div class="col-md-6">
+                <h2>Айва</h2>
+                <p>Ціна: 100 грн</p>
+                <p>Опис продукту:</p>
+                <p>Айва (Cydonia oblonga) — фрукт, що походить з різних частин Азії та Середземномор’я. Його вирощували ще в Стародавній Греції та Римі, де він служив символом любові та родючості. Хоча сьогодні айва значно менш поширена, вона є близькою родичкою таких популярних фруктів, як яблука та груші.</p>
+                <button class="btn btn-primary">Додати у кошик</button>
+                 <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="3.jpeg" alt="Кумкват">
+            </div>
+            <div class="col-md-6">
+                <h2>Кумкват</h2>
+                <p>Ціна: 100 грн</p>
+                <p>Опис продукту:</p>
+                <p>Кумквати досить соковиті, приблизно 80% ваги плодів приходиться на воду. Високий вміст рідини та клітковини в цих плодах дозволяє швидко насичуватися при тому, що калорій в них досить мало. Так що це відмінна закуска для тих, хто стежить за своэю фігурою.</p>
                 <button class="btn btn-primary">Додати у кошик</button>
             </div>
         </div>
@@ -29,7 +80,14 @@
 </section>
 
 <footer>
-    <!-- Ваш футер може бути доданий тут -->
+ <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <ul class="list-inline">
+                   <li class="list-inline-item"><a class="social-icon" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
+<li class="list-inline-item"><a class="social-icon" href="https://uk-ua.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+<li class="list-inline-item"><a class="social-icon" href="https://fruit-boutique.com.ua/korobka-s-fruktami-nice-box-1sht/?gad_source=1&gclid=Cj0KCQjwir2xBhC_ARIsAMTXk87n5wcb6wi_V0SrRWJbrYHKtMdjdHL6qgVPt2QiScidw213twI4gfQaAs4NEALw_wcB"><i class="fab fa-google"></i></a></li>
+                </ul></div> 
 </footer>
 
 </body>
